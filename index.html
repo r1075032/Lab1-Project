@@ -4,61 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab1-Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h2><img src="images/Logo Fumble.svg" alt="fumble-logo"></h2>
+    <nav class="nav">
+        <div class="nav-container"></div>
+        <a><img src="images/Logo Fumble.svg" alt="fumble-logo"></a>
 
-        <ul class="navigation">
-            <li><a href="#">About us</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Membership</a></li>
-            <li><a href="#">Merch</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Download</a></li>
-        </ul>
-        <p class="sub-text">Your space to learn together</p>
-        <h1>Stumble less, learn more</h1>
-        <p>Fumble is a student club where members support each other in learning. <br>
+         </div>
+            <div class="nav-links">
+                <a href="#about">About us</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#membership">Membership</a>
+                <a href="#merch">Merch</a>
+                <a href="#contact">Contact</a>
+                <button class="btn btn-primary">Download the app →</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header-container">
+        <div class="header-content">
+        <p class="sub-text"> Your space to learn together</p>
+        <h1>Stumble less,<br> learn more</h1>
+        <p class="description">Fumble is a student club where members support each other in learning. <br>
             We share notes or trade study tasks in a simple system. Our mission is to <br>
             make studying easier and effective while keeping academic integrity.</p>
 
-        <div>
+        <div class="app-badges">
             <img src="images/Download Google Play.svg" alt="google play store">
             <img src="images/Download Apple.svg" alt="apple app store">
         </div>
-
+        <div class="header-image">
+            <img src="images/Phone Mockup.png" alt="Fumble App" class="phone-mockup">
+        </div>
     </header>
 
-    <main>
+    
+
         <section>
-            <p>What We Do</p>
+            <p class="section-label">What We Do</p>
             <h1>How Fumble helps students succeed</h1>
-            <p>Fumble lets students exchange help with notes, tutoring, or study tasks. <br>
+            <p class="section-description">Fumble lets students exchange help with notes, tutoring, or study tasks. <br>
                 Members offer what they can, set conditions, and others accept trades that <br>
                 fit their needs. It’s an easy way to learn together, share skills, and support <br> 
                 each other throughout the semester.</p>
 
-                <div>
-                    <h2>88%</h2>
-                    <p>Satisfied users</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>88%</h3>
+                        <p>Satisfied users</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>10x</h3>
+                        <p>Help arrives faster</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3>250+</h3>
+                        <p>Active students</p>
+                    </div>
+                </div>
                 </div>
 
-                <div>
-                    <h2>10x</h2>
-                    <p>Help arrives faster</p>
-                </div>
+                <button class="btn btn-primary">Start trading now →</button>
+            </div>
 
-                <div>
-                    <h2>250+</h2>
-                    <p>Active students</p>
+            <div class="content-right">
+                <div class="image-grid">
+                    <img src="images/Foto 1.jpg"alt="Students studying" class="grid-image grid-image-large">
+                    <div class="grid-column">
+                        <img src="images/Foto 2.jpg" alt="Students collaborating" class="grid-image">
+                        <img src="images/foto 3.jpg" alt="Students learning" class="grid-image">
+                    </div>
                 </div>
-                </div>
+            </div>
+        </div>
+    </section>
 
-                <div></div>
+
         </section>
-
-    </main>
 
     <footer>© 2025 Fumble Inc.</footer>
 </body>

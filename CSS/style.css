@@ -1,0 +1,167 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F3F1;
+    color: #0C3C3B;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C3C3B;
+    padding: 10px 40px;
+}
+
+header a {
+    padding-left: 80px;
+}
+
+.nav {
+    background-color: #0c3c3b;
+    padding: 32px 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5px;
+    padding-right: 80px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #F9F3F1;;
+    font-weight: 36px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+a {
+    color: #F9F3F1;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #0C3C3B;
+    padding: 10px 0;
+    align-self: center;
+}
+
+.header-image {
+    position:relative;
+}
+
+.phone-mockup {
+    max-width: 412px;
+    height: auto;
+}
+
+.btn {
+    background: #FFC53E;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.header {
+    background-color: #0c3c3b;
+    padding: 68px 100px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 64px;
+}
+
+.header-content {
+    max-width: 610px;
+}
+
+.btn:hover {
+    background: rgb(255, 153, 0);
+    text-decoration: none;
+}
+
+.sub-text {
+    color: #0C3C3B;
+    margin-bottom: -10px;
+    padding-left: 80px;
+    color: #FFC53E;
+}
+
+h1 {
+    color: #0C3C3B;
+    margin-top: 0;
+    padding-left: 80px;
+}
+
+p {
+    color: #0C3C3B;
+    padding-left: 80px;
+}
+
+footer {
+    background-color: #0C3C3B;
+    color: #F9F3F1;
+    padding: 10px 0;
+    position: auto;
+    width: auto;
+}
+
+.stats {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.stat-item h3 {
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.stat-item p {
+    font-size: 16px;
+}
+
+.stat-divider {
+    width: 5px;
+    height: 100px;
+    background-color: #ffc53e;
+    border-radius: 30px;
+}
+
+
+.subtitle {
+    color: #ffc53e;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+
