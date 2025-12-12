@@ -164,4 +164,121 @@ footer {
     margin-bottom: 16px;
 }
 
+.image-grid {
+    display: flex;
+    gap: 20px;
+    max-width: 610px;
+}
+
+.grid-image {
+    border-radius: 32px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.grid-image-large {
+    width: 295px;
+    height: 508px;
+}
+
+.grid-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid-column .grid-image:first-child {
+    height: 169px;
+}
+
+.grid-column .grid-image:last-child {
+    height: 319px;
+}
+
+.rounded-image {
+    border-radius: 32px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Merch Section */
+.merch-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    width: 100%;
+}
+
+.merch-description {
+    max-width: 505px;
+}
+
+.merch-carousel {
+    width: 100%;
+}
+
+.carousel-controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.carousel-btn {
+    padding: 12px 32px;
+    border: 2px solid #ffc53e;
+    background: transparent;
+    color: #ffc53e;
+    border-radius: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.carousel-btn.active {
+    background-color: #ffc53e;
+    color: #f9f3f1;
+}
+
+.carousel-btn:hover {
+    background-color: #ffc53e;
+    color: #f9f3f1;
+}
+
+.merch-cards {
+    display: flex;
+    gap: 32px;
+}
+
+.merch-card {
+    flex: 1;
+    max-width: 300px;
+}
+
+.merch-image {
+    background-color: #f9f3f1;
+    border-radius: 20px;
+    height: 400px;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.merch-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.merch-card h3 {
+    font-size: 31px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.merch-card p {
+    font-size: 16px;
+}
+
 
